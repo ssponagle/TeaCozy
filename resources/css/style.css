@@ -53,6 +53,13 @@ main {
   border: 1px solid yellow;
 }
 
+/*Adds black background for text over images*/
+.textOverImage {
+  background-color: black;
+  /*for testing*/
+  border: 1px solid pink;
+}
+
 #mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
@@ -63,9 +70,34 @@ main {
   align-items: center;
 }
 
-.text {
-  background-color: black;
+#mission .textOverImage {
   width: 1200px;
+}
+
+#tea {
+  display: flex;
+  justify-content:center;
+  width: 1000px;
   /*for testing*/
   border: 1px solid pink;
+}
+
+/*Flex container with space around. Will contain divs that are the image + caption*/
+.imageRow {
+  display: flex;
+  justify-content: space-around;
+  /*for testing*/
+  border: 1px solid green;
+}
+
+/*Flex container with flex direction: column */
+.imageCap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageCap img {
+  height: 200px;
+  width: 300px;
 }
