@@ -42,6 +42,8 @@ header a {
 main {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   margin-top: 69px;
   /*for testing*/
   border: 1px solid yellow;
@@ -49,11 +51,17 @@ main {
 
 #mission {
   background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  margin: 0 40px;
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
   background-color: inherit;
   width: 1200px;
+  /*for testing*/
+  border: 1px solid pink;
 }
