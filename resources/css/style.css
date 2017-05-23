@@ -14,7 +14,8 @@ header {
   z-index: 10;
   top: 0;
   height: 69px;
-  /*width: 100%;*/
+  width: 100%;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,6 +34,7 @@ header li {
   display: inline-block;
   text-align: right;
   padding: 10px;
+  margin: 10px;
 }
 
 header a {
@@ -77,10 +79,10 @@ main {
   border: 1px solid pink;
 }
 
-/*Flex container with space around. Will contain divs that are the image + caption*/
+
 .imageRow {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   /*for testing*/
   border: 1px solid green;
@@ -91,6 +93,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 15px;
 }
 
 .imageCap img {
@@ -100,4 +103,20 @@ main {
 
 .imageCap h3 {
   margin: 10px;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#location .textOverImage {
+  width: 300px;
+  opacity: 1;
 }
