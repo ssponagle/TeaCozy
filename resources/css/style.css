@@ -81,6 +81,7 @@ main {
 .imageRow {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   /*for testing*/
   border: 1px solid green;
 }
