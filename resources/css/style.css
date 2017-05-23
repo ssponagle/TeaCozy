@@ -1,0 +1,35 @@
+/*General styles*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+/*Header section*/
+
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  /*for testing*/
+  border: 1px solid pink;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+  text-decoration: underline;
+}
