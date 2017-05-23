@@ -32,20 +32,25 @@ header li {
   list-style: none;
   display: inline-block;
   text-align: right;
-  text-decoration: underline;
+}
+
+header a {
+  color: inherit;
 }
 
 /*Main section*/
 main {
   display: flex;
   flex-flow: column nowrap;
-  padding-top: 69px;
+  margin-top: 69px;
   /*for testing*/
   border: 1px solid yellow;
 }
 
 #mission {
-  background-image: url("./resources/images/img-mission-background.jpg");
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .text {
