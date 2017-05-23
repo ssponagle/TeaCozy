@@ -112,11 +112,12 @@ main {
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
 }
 
-#location .textOverImage {
+#locations .textOverImage {
   width: 300px;
   opacity: 1;
+  margin: 0 40px;
 }
