@@ -72,8 +72,6 @@ main {
 }
 
 #tea {
-  display: flex;
-  justify-content:center;
   width: 1000px;
   /*for testing*/
   border: 1px solid pink;
@@ -97,4 +95,8 @@ main {
 .imageCap img {
   height: 200px;
   width: 300px;
+}
+
+.imageCap h3 {
+  margin: 10px;
 }
