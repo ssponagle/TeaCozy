@@ -20,8 +20,6 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
-  /*for testing*/
-  border: 1px solid pink;
 }
 
 header img {
@@ -48,15 +46,13 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 69px;
-  /*for testing*/
-  border: 1px solid yellow;
+
 }
 
 /*Adds black background for text over images*/
 .textOverImage {
   background-color: black;
-  /*for testing*/
-  border: 1px solid pink;
+
 }
 
 #mission {
@@ -75,8 +71,7 @@ main {
 
 #tea {
   width: 1000px;
-  /*for testing*/
-  border: 1px solid pink;
+
 }
 
 
@@ -84,8 +79,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /*for testing*/
-  border: 1px solid green;
+  
 }
 
 /*Flex container with flex direction: column */
